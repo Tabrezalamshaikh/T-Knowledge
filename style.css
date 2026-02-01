@@ -1,0 +1,149 @@
+
+.custom-navbar{
+  background: linear-gradient(to right, #2b1b12, #4a2e1f);
+  padding: 10px 0;
+}
+
+.logo img{
+  width: 40px;
+  margin-right: 10px;
+}
+
+.navbar-brand{
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-nav{
+  margin: auto;
+}
+
+.nav-link{
+  color: white;
+  font-size: 17px;
+  margin: 0 10px;
+}
+
+.nav-link:hover{
+  color: #f4c16d;
+}
+
+.btn-login{
+  background: #e67e22;
+  color: white;
+  border: none;
+}
+
+.hero{
+  height: 100vh;
+  background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("Library Back-Ground.jpg");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1{
+  color: white;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.hero p{
+  color: white;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.section-1{
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("leather.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.search-box{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.search-box input{
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.search-box button{
+  padding: 10px 20px;
+  background: green;
+  border-radius: 20px;
+  color: white;
+  border: none;
+}
+
+.category-title{
+  color: orange;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.categories{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.category-card{
+  width: 180px;
+  background: #f2e6d8;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.category-card img{
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.category-card p{
+  font-size: 18px;
+  font-weight: bold;
+  color: #3b2a1a;
+}
+.categories-2{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.category-card-2{
+  width: 240px;
+  background: #f2e6d8;
+  border-radius: 12px;
+  /* padding: 20px; */
+}
+
+.category-card-2 img{
+  width: 60px;
+  /* margin-bottom: 10px; */
+}
+
+.category-card-2 p{
+  font-size: 18px;
+  font-weight: bold;
+  color: #3b2a1a;
+}
